@@ -5,8 +5,8 @@ uint8 err
 uint8 rtr
 uint8 eff
 
-## @file Frame.msg
-# @ingroup ros2_can_bridge
+# @file Frame.msg
+# @ingroup seacat_msg
 # @author Braidan Duffy
 # @brief message type to publish can messages to ROS topic
 # @param id CAN message id (11/29 bit)

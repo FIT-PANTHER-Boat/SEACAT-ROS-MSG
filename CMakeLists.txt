@@ -27,6 +27,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CANFrame.msg"
+  "msg/Throttle.msg"
 )
 
 ament_package()
